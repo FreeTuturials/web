@@ -1,0 +1,90 @@
+body {
+    background: #111;
+}
+
+#header {
+    text-align: center;
+    color: #40806a;
+    font-size: 250%;
+    font-family: fantasy;
+
+    height: 200px;
+
+    background-image: url("https://i.pinimg.com/originals/02/7a/a1/027aa1bbe00447378ff2ad21946c0546.jpg");
+}
+
+#body {
+    color: black;
+    background-color: #151515;
+
+    height: 500px;
+
+    padding-bottom: 20px;
+}
+
+#footer {
+    padding-top: 20px;
+    color: black;
+    background-color: #151515;
+}
+
+#footer .title {
+    color: #f0f0f0;
+    text-align: center;
+}
+
+#body .veiw {
+    width: 150px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: 2px solid #4CAF50;
+    background-color: #4CAF50;
+
+    font-size: 120%;
+
+}
+#body .veiw:hover {
+    background-color: #40806a;
+    color: white;
+}
+
+
+#body .support {
+    width: 150px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: 2px solid #0cb9ff;
+    background-color: #0cb9ff;
+    
+    font-size: 120%;
+}
+#body .support:hover {
+    background-color: #065d80;
+    color: #ffffff;
+}
+
+
+#nav {
+    position: absolute;
+    left: 41%;
+    top: 55%;
+}
+
+#footer #driver {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    clear: both;
+    text-align: center;
+}
+
+#footer .sep {
+    clear: both;
+}
+
+#footer .link {
+    color: blueviolet;
+    text-decoration: none;
+}
